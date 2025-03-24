@@ -1,12 +1,55 @@
-# React + Vite
+# 🎮 Tic-Tac-Toe Game using React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
+This project is a **Tic-Tac-Toe** game built with **React**, utilizing `useState` and `useContext` for state management. It also features smooth **animations** using `useGsapHook` and immersive **sound effects** for a better gameplay experience. The game logic is optimized for seamless interaction.
 
-Currently, two official plugins are available:
+## ✨ Features
+- 🎯 **State Management**: Uses `useState` and `useContext` for efficient state handling.
+- 🎬 **Animations**: Powered by `useGsapHook` for smooth transitions and effects.
+- 🔊 **Sound Effects**: Engaging sound effects for moves, wins, and game resets.
+- 🏆 **Smart Game Logic**: Detects wins, draws, and resets automatically.
+- 🎨 **Responsive Design**: Optimized for different screen sizes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Technologies Used
+- ⚛️ **React**
+- 🏗 **useState, useContext** (State Management)
+- 🎞 **useGsapHook** (Animations)
+- 🎨 **CSS** (Styling)
 
-## Expanding the ESLint configuration
+## 📥 Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Vishal-770/tic-tac-toe.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd tic-tac-toe
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎲 How to Play
+- 🔘 Click on an empty cell to place your **X** or **O**.
+- 🔄 Players take turns making moves.
+- 🏅 The game automatically detects wins and draws.
+- 🔄 Click the **Reset** button to start a new game.
+- 🎶 Enjoy **animations** and **sound effects** throughout the game!
+
+## 🌟 Future Improvements
+- 🕹 **Multiplayer Mode** using WebSockets.
+- 🤖 **AI Opponent** to play against the computer.
+- 🎨 **Enhanced UI/UX** with more animations and effects.
+
+## 👨‍💻 Author
+- **Vishal**  
+  - 🔗 [LinkedIn](https://www.linkedin.com/in/vishal-prabhu-130b1a323/)  
+  - 🐙 [GitHub](https://github.com/Vishal-770)  
+
+Enjoy playing Tic-Tac-Toe! 🎉
+
