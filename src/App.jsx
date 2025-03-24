@@ -94,7 +94,7 @@ function App() {
     } else if (result === "O") {
       return <>O WON</>;
     } else if (result === "Draw") {
-      return <>Draw, Reset to Play Again</>;
+      return <>Draw</>;
     }
     return null;
   }
